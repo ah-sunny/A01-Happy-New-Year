@@ -3,11 +3,11 @@
     padding: 0px;
 }
 .banner{
-    width:1320px ;
+    width:80% ;
     height: 600px;
-    margin: 50px 140px;
+    margin: 40px 10%;
     border-radius: 16px;
-    background-image:  linear-gradient(to  bottom, rgba(0, 0, 0, 0.7), rgba(0,0,0,0)),
+    background-image:  linear-gradient(to  bottom, rgba(0, 0, 0, 0.7), rgba(0,0,0,0.2)),
     url('../resources/Banner\ Image.png');
     background-size: 100% 100%;
     display: flex;
@@ -31,3 +31,32 @@ line-height: 95px;
 width: 632px;
 margin-top: 0px;
 }
+
+ /*discount part style */
+.discount{
+    /* background-color: aquamarine; */
+    text-align: center;
+    width: 80%;
+    margin: 140px 10%;
+    font-family: Inter;
+}.discount-title{
+    color: blue;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}.discount-discription{
+    color:blue;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}.cat{
+    text-align: center;
+    color: black;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+/* midnight section style */
+
+
