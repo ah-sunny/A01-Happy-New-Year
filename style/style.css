@@ -57,6 +57,50 @@ margin-top: 0px;
     font-weight: 700;
     margin-bottom: 48px;
 }
-/* midnight section style */
 
+/* midnight section style */
+.midnight{
+    text-align: center;
+    width: 75%;
+    height: 500px;
+    margin: 140px 10%;
+    background-color: aqua;
+    border-radius: 16px;
+    background-image:  linear-gradient( to right, rgba(0, 0, 0, 0.9), rgba(0,0,0,0.1)),
+    url('../resources/Vectorrr.png');
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4%;
+}.midnight_word{
+    text-align: left;
+    width: 60%;
+    /* background-color: rgb(175, 46, 46); */
+    color: #FFF;
+    font-family: Merriweather;
+}.midnight_title{
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 80px; 
+    letter-spacing: 7.04px;
+    margin-bottom: 24px;
+}.midnight_para{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px; 
+    margin-bottom: 48px;
+}.btn_primary{
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 16px 32px;
+    border-radius: 8px;
+    background-color: #f00;
+    color: white;
+}
+.midnight_img{
+    width: 40%;
+}
 
