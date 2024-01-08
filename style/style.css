@@ -185,3 +185,14 @@ margin-bottom: 40px;
     padding: 20px;
     border-radius: 50%;
  }
+
+ /* portfolio part */
+
+ .portfolio{
+display: flex;
+flex-wrap: wrap;
+
+ }.portfolio .photo{
+    flex-basis: 33%;
+    
+ }
