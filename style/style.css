@@ -67,7 +67,7 @@ margin-top: 0px;
     width: 72%;
     height: 500px;
     margin: 140px 10%;
-    background-color: aqua;
+    /* background-color: aqua; */
     border-radius: 16px;
     background-image:  linear-gradient( to right, rgba(0, 0, 0, 0.9), rgba(0,0,0,0.1)),
     url('../resources/Vectorrr.png');
