@@ -287,6 +287,7 @@ text-transform: capitalize;
  /* footer style  */
 
  footer{
+    display: none;
     text-align: center;
     width: 100%;
     height: 400px;
@@ -345,4 +346,39 @@ text-transform: capitalize;
 
 .break{
     padding-right: 10%;
+}
+
+
+/* holiday style */
+
+.holiday{
+    text-align: center;
+    width: 80%;
+    height: 600px;
+    margin: 140px ;
+    background-color: rgb(240, 192, 192);
+    border-radius: 16px;
+}.holiday_text .title{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+} .holiday_text h1{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}.holiday_text h1 span{
+    color: #F00;
+} .holiday_text p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px; 
+}.holiday_text{
+    width: 70%;
+    margin: 0% auto;
 }
